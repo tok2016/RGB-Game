@@ -105,5 +105,41 @@
   <ItemGroup>
     <None Include="Resources\BG1-0.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WCubeRunning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RCubeRunning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GCubeRunning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCubeRunning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WCubeRunningBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RCubeRunningBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GCubeRunningBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCubeRunningBack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCube.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

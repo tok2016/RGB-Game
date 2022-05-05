@@ -31,14 +31,14 @@ namespace RGB_Game
         {
             this.components = new System.ComponentModel.Container();
             this.player = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.sprite = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.redSpike = new System.Windows.Forms.PictureBox();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.rightTimer = new System.Windows.Forms.Timer(this.components);
             this.leftTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sprite)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redSpike)).BeginInit();
             this.SuspendLayout();
@@ -46,22 +46,23 @@ namespace RGB_Game
             // player
             // 
             this.player.BackColor = System.Drawing.Color.Transparent;
-            this.player.Image = global::RGB_Game.Properties.Resources.CubeRunning;
-            this.player.Location = new System.Drawing.Point(74, 450);
+            this.player.Image = global::RGB_Game.Properties.Resources.WCube;
+            this.player.Location = new System.Drawing.Point(207, 389);
             this.player.Name = "player";
             this.player.Size = new System.Drawing.Size(85, 104);
+            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.player.TabIndex = 0;
             this.player.TabStop = false;
             // 
-            // pictureBox2
+            // sprite
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.pictureBox2.Location = new System.Drawing.Point(-5, 560);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(531, 120);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "platform";
+            this.sprite.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.sprite.Location = new System.Drawing.Point(-3, 560);
+            this.sprite.Name = "sprite";
+            this.sprite.Size = new System.Drawing.Size(531, 120);
+            this.sprite.TabIndex = 1;
+            this.sprite.TabStop = false;
+            this.sprite.Tag = "platform";
             // 
             // pictureBox3
             // 
@@ -110,7 +111,7 @@ namespace RGB_Game
             this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.redSpike);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.sprite);
             this.Controls.Add(this.player);
             this.DoubleBuffered = true;
             this.Name = "Form1";
@@ -118,7 +119,7 @@ namespace RGB_Game
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyGetDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyGetUp);
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sprite)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.redSpike)).EndInit();
             this.ResumeLayout(false);
@@ -128,7 +129,7 @@ namespace RGB_Game
         #endregion
 
         private System.Windows.Forms.PictureBox player;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox sprite;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox redSpike;
         private System.Windows.Forms.Timer gameTimer;

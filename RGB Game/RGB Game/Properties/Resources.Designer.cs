@@ -63,6 +63,36 @@ namespace RGB_Game.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BCube {
+            get {
+                object obj = ResourceManager.GetObject("BCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BCubeRunning {
+            get {
+                object obj = ResourceManager.GetObject("BCubeRunning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BCubeRunningBack {
+            get {
+                object obj = ResourceManager.GetObject("BCubeRunningBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BG1 {
             get {
                 object obj = ResourceManager.GetObject("BG1", resourceCulture);
@@ -113,6 +143,66 @@ namespace RGB_Game.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GCube {
+            get {
+                object obj = ResourceManager.GetObject("GCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GCubeRunning {
+            get {
+                object obj = ResourceManager.GetObject("GCubeRunning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GCubeRunningBack {
+            get {
+                object obj = ResourceManager.GetObject("GCubeRunningBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RCube {
+            get {
+                object obj = ResourceManager.GetObject("RCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RCubeRunning {
+            get {
+                object obj = ResourceManager.GetObject("RCubeRunning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RCubeRunningBack {
+            get {
+                object obj = ResourceManager.GetObject("RCubeRunningBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RedCubeRunning {
             get {
                 object obj = ResourceManager.GetObject("RedCubeRunning", resourceCulture);
@@ -136,6 +226,36 @@ namespace RGB_Game.Properties {
         internal static System.Drawing.Bitmap RedSpike1 {
             get {
                 object obj = ResourceManager.GetObject("RedSpike1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WCube {
+            get {
+                object obj = ResourceManager.GetObject("WCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WCubeRunning {
+            get {
+                object obj = ResourceManager.GetObject("WCubeRunning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WCubeRunningBack {
+            get {
+                object obj = ResourceManager.GetObject("WCubeRunningBack", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
